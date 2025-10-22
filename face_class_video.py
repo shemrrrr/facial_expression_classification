@@ -17,13 +17,13 @@ model = AutoModelForImageClassification.from_pretrained(model_name, use_safetens
 em_height = 150
 em_width = 150
 paths = {
-    "angry": "",
-    "disgust": "",
-    "fear": "",
-    "happy": "",
-    "neutral": "",
-    "sad": "",
-    "surprise": "",
+    "angry": "https://raw.githubusercontent.com/shemrrrr/facial_expression_classification/refs/heads/master/emojis/angry.png",
+    "disgust": "https://raw.githubusercontent.com/shemrrrr/facial_expression_classification/refs/heads/master/emojis/disgust.png",
+    "fear": "https://raw.githubusercontent.com/shemrrrr/facial_expression_classification/refs/heads/master/emojis/fear.png",
+    "happy": "https://raw.githubusercontent.com/shemrrrr/facial_expression_classification/refs/heads/master/emojis/happy.png",
+    "neutral": "https://raw.githubusercontent.com/shemrrrr/facial_expression_classification/refs/heads/master/emojis/neutral.png",
+    "sad": "https://raw.githubusercontent.com/shemrrrr/facial_expression_classification/refs/heads/master/emojis/sad.png",
+    "surprise": "https://raw.githubusercontent.com/shemrrrr/facial_expression_classification/refs/heads/master/emojis/surprise.png",
 }
 emojis = []
 for p in paths.values():
